@@ -8,7 +8,8 @@ Linux shells are a lot more powerful than the Windows command line, because they
 
 ### Guide to run the code
 
-Make sure you have GCC installed<br/>
+> Make sure you have GCC installed<br/><br/>
+
 **1.Clone the repository in your local system**
 ```
 git clone https://github.com/mahir29/Linux-Shell.git
@@ -31,6 +32,6 @@ gcc -o runshell  temp-sh.c utilities.c utilities.h linkedlist.c linkedlist.h
 ```
 
 ### New features
-sh_yahoo() method : similarly as sh_google method,yahoo string will search string on yahoo. For example: myshell> google will open google and writing "google black wallpaper" will open black wallpaper<br/>
-sh_google() method : This method will help you search google with whatever query you provide next to it. Usage : Simple google will open Google on your browser, and google strings will search strings on the same. You can also search for strings with multiple words separated by spaces.<br/>
+`sh_yahoo() method` : similarly as sh_google method,yahoo string will search string on yahoo. For example: myshell> google will open google and writing "google meme" will open meme<br/>
+`sh_google() method` : This method will help you search google with whatever query you provide next to it. Usage : Simple google will open Google on your browser, and google strings will search strings on the same. You can also search for strings with multiple words separated by spaces.<br/>
 
