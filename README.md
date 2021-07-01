@@ -8,7 +8,7 @@ Linux shells are a lot more powerful than the Windows command line, because they
 
 ### Guide to run the code
 
-> Make sure you have GCC installed<br/><br/>
+> Make sure you have GCC installed
 
 **1.Clone the repository in your local system**
 ```
