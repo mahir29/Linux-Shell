@@ -8,30 +8,29 @@ Linux shells are a lot more powerful than the Windows command line, because they
 
 ### Guide to run the code
 
+Make sure you have GCC installed<br/>
+**1.Clone the repository in your local system**
 ```
-git clone https://github.com/mahir29/Client-Server-Communication.git<br/>
-cd Socket-Programming
-```
-
-**FOR TCP**
-```
-cd TCP
+git clone https://github.com/mahir29/Linux-Shell.git
 ```
 
-**FOR UDP**
+**2.Navigate to the main folder**
 ```
-cd UDP
-```
-
-**Compile and run server.cpp and client.cpp using**
-
-```
-g++ -o server server.cpp<br/>
-./server 2000
+cd Linux-Shell
 ```
 
+**3.Compile the shell using following command**
 ```
-g++ -o client client.cpp<br/>
-./client localhost 2000
+gcc -o runshell  temp-sh.c utilities.c utilities.h linkedlist.c linkedlist.h
 ```
-Now you can send messgae from client to server
+
+**4.Run this command**
+
+```
+./runshell
+```
+
+### New features
+sh_yahoo() method : similarly as sh_google method,yahoo string will search string on yahoo. For example: myshell> google will open google and writing "google black wallpaper" will open black wallpaper<br/>
+sh_google() method : This method will help you search google with whatever query you provide next to it. Usage : Simple google will open Google on your browser, and google strings will search strings on the same. You can also search for strings with multiple words separated by spaces.<br/>
+
